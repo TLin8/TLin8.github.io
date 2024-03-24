@@ -1,0 +1,63 @@
+/* Helvetica Light */
+@font-face {
+    font-family: 'Helvetica Light';
+    src: url('../fonts/Helvetica-Light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Helvetica Light Italic */
+@font-face {
+    font-family: 'Helvetica Light Italic';
+    src: url('../fonts/Helvetica-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Helvetica Regular */
+@font-face {
+    font-family: 'Helvetica Regular';
+    src: url('../fonts/Helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Helvetica Italic */
+@font-face {
+    font-family: 'Helvetica Italic';
+    src: url('../fonts/Helvetica-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Helvetica Bold */
+@font-face {
+    font-family: 'Helvetica Bold';
+    src: url('../fonts/Helvetica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Helvetica Bold Italic */
+@font-face {
+    font-family: 'Helvetica Bold Italic';
+    src: url('../fonts/Helvetica-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Helvetica Rounded Bold */
+@font-face {
+    font-family: 'Helvetica Rounded Bold';
+    src: url('../fonts/helvetica-rounded-bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Helvetica Compressed */
+@font-face {
+    font-family: 'Helvetica Compressed';
+    src: url('../fonts/helvetica-compressed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
