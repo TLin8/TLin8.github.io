@@ -66,6 +66,12 @@ h4 {
     font-size: 18px; 
 }
 
+p {
+    color: #fff;
+    font-family: 'Helvetica Light', sans-serif; 
+    font-size: 16px; 
+}
+
 /* Style Guide Heading */
 h5 {
     font-family: 'Helvetica Compressed', sans-serif; 
@@ -75,14 +81,29 @@ h5 {
     color: white;
   }
 
-button {
-    padding: 10px 30px;
+.button-nav,
+.button2-nav {
+    padding: 10px 10px;
     margin: 5px;
     border: 2px solid #fff; 
     border-radius: 5px;
+    text-decoration: none;
     background-color: transparent; 
     color: #fff;
     cursor: pointer;
+}
+
+.button2-nav {
+    color: black;
+    background-color: white; 
+}
+
+.button-nav:hover, .button-nav:focus {
+    background-color: rgba(100, 100, 100);
+}
+
+.button2-nav:hover, .button2-nav:focus {
+    background-color: rgb(200, 200, 200);
 }
 
 footer {
