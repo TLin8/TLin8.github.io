@@ -5,10 +5,40 @@ body {
 }
 
 header {
-    background-color: hsl(240, 11%, 15%);
-    color: #fff;
     text-align: center;
-    padding: 5px;
+    position: fixed; /* Fix the header position */
+    z-index: 2; /* Increase z-index to place it above the video */
+}
+
+nav {
+    position: fixed; /* Fix the nav position */
+    top: 16px;
+    width: 100%; /* Make the nav cover the entire width */
+    padding: 1rem 0; /* Add padding as needed */
+    z-index: 3; /* Increase z-index to place it above the header */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right; /* Align navigation links to the right */
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 3%; /* Add space between navigation links */
+}
+
+nav ul li:last-child {
+    margin-right: 5%; /* Add space after the last navigation link */
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0.45);
+    font-family: 'Helvetica Regular', sans-serif;
+    font-size: 1.2rem; 
+    text-decoration: none;
+    padding: 1rem 5%; 
+    transition: transform 0.3s ease;
 }
 
 h1 {
@@ -51,6 +81,38 @@ footer {
     margin-top: 50px; 
     background-color: #212129; 
     padding: 50px; 
+}
+
+.home-hero {
+    position: relative; /* Set position to relative */
+}
+
+#myVideo {
+    top: 0;
+    max-width: 100%; /* Ensure the video covers the entire width */
+    z-index: -1; /* Put the video behind other content */
+}
+
+.hero {
+    position: absolute; /* Position the hero text absolutely */
+    top: 65%; /* Align to the center vertically */
+    left: 50%; /* Align to the center horizontally */
+    transform: translate(-50%, -50%); /* Center the text */
+    z-index: 1; /* Ensure text appears above the video */
+    text-align: center; /* Center align text */
+}
+
+.hero h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    font-size: 8rem; /* Adjust font size as needed */
+}
+
+.hero h1 {
+    color: rgba(245, 245, 255, 0.75);
+    margin-top: 1rem;
+    font-size: 3.5rem; /* Adjust font size as needed */
 }
 
 
