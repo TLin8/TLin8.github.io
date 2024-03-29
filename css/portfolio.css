@@ -120,7 +120,6 @@ footer {
     align-items: center; /* Align items vertically */
     padding: 50px; /* Add padding as needed */
     border-top: 2px solid #fff;;
-    border-bottom: 2px solid #fff;;
 }
 
 .about-section img {
@@ -142,6 +141,51 @@ footer {
     font-family: 'Helvetica Light', sans-serif; 
     font-size: 18px; /* Adjust font size as needed */
     line-height: 1.6; /* Add line height for better readability */
+}
+
+.projects-section {
+    border-top: 2px solid #fff;;
+}
+
+.projects-section h2 {
+    color: #fff;
+    font-family: 'Helvetica Compressed', sans-serif; 
+    font-size: 65px; /* Adjust font size as needed */
+    text-decoration: underline;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding: 30px; 
+}
+
+.project {
+    width: calc(50% - 10px); 
+    margin-bottom: 5rem;
+}
+
+.project img {
+    width: 100%; /* Ensure images fill the entire width of their container */
+    height: 80%; 
+    object-fit: cover; 
+    border: 2px solid #fff;;
+}
+
+.video-background {
+    position: relative;
+}
+
+#backVideo {
+    position: absolute;
+    max-width: 100%;
+    min-height: 100%;
+    z-index: -1; 
+    border-bottom: 2px solid #fff;;
 }
 
 
