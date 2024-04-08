@@ -6,30 +6,30 @@ body {
 
 header {
     text-align: center;
-    position: fixed; /* Fix the header position */
-    z-index: 2; /* Increase z-index to place it above the video */
+    position: fixed; 
+    z-index: 2; 
 }
 
 nav {
-    position: fixed; /* Fix the nav position */
+    position: fixed; 
     top: 16px;
-    width: 100%; /* Make the nav cover the entire width */
-    padding: 1rem 0; /* Add padding as needed */
-    z-index: 3; /* Increase z-index to place it above the header */
+    width: 100%;
+    padding: 1rem 0; 
+    z-index: 3; 
 }
 
 nav ul {
     list-style-type: none;
-    text-align: right; /* Align navigation links to the right */
+    text-align: right; 
 }
 
 nav ul li {
     display: inline;
-    margin-left: 2%; /* Add space between navigation links */
+    margin-left: 2%; 
 }
 
 nav ul li:last-child {
-    margin-right: 3%; /* Add space after the last navigation link */
+    margin-right: 3%;
 }
 
 nav ul li a {
@@ -77,47 +77,47 @@ p {
 }
 
 .home-hero {
-    position: relative; /* Set position to relative */
+    position: relative; 
 }
 
 #myVideo {
     top: 0;
-    max-width: 100%; /* Ensure the video covers the entire width */
-    z-index: -1; /* Put the video behind other content */
+    max-width: 100%; 
+    z-index: -1; 
 }
 
 .hero {
-    position: absolute; /* Position the hero text absolutely */
-    top: 65%; /* Align to the center vertically */
-    left: 50%; /* Align to the center horizontally */
-    transform: translate(-50%, -50%); /* Center the text */
-    z-index: 1; /* Ensure text appears above the video */
-    text-align: center; /* Center align text */
+    position: absolute; 
+    top: 65%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    text-align: center; 
 }
 
 .hero h2 {
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 1rem;
     text-decoration: underline;
-    font-size: 8rem; /* Adjust font size as needed */
+    font-size: 8rem; 
 }
 
 .hero h1 {
     color: rgba(245, 245, 255, 0.75);
     margin-top: 1rem;
-    font-size: 3.5rem; /* Adjust font size as needed */
+    font-size: 3.5rem; 
 }
 
 .about-section {
     display: flex;
-    align-items: center; /* Align items vertically */
-    padding: 50px; /* Add padding as needed */
+    align-items: center; 
+    padding: 50px; 
     border-top: 2px solid #fff;;
 }
 
 .about-section img {
-    max-width: 50%; /* Ensure image doesn't exceed container width */
-    margin-right: 30px; /* Add spacing between image and text */
+    max-width: 50%; 
+    margin-right: 30px; 
     margin-left: -55px; 
     border: 2px solid #fff;;
 }
@@ -125,15 +125,15 @@ p {
 .about-text h2 {
     color: #fff;
     font-family: 'Helvetica Compressed', sans-serif; 
-    font-size: 80px; /* Adjust font size as needed */
+    font-size: 80px; 
     margin-bottom: 15px;
 }
 
 .about-text p {
     color: #fff;
     font-family: 'Helvetica Light', sans-serif; 
-    font-size: 18px; /* Adjust font size as needed */
-    line-height: 1.6; /* Add line height for better readability */
+    font-size: 18px;
+    line-height: 1.6; 
 }
 
 .projects-section {
@@ -150,7 +150,7 @@ p {
 .projects-section h2 {
     color: #fff;
     font-family: 'Helvetica Compressed', sans-serif; 
-    font-size: 70px; /* Adjust font size as needed */
+    font-size: 70px; 
     text-decoration: underline;
     margin-bottom: 0;
     margin-right: 55px;
@@ -158,16 +158,16 @@ p {
 }
 
 .h3-container {
-    display: flex; /* Arrange h3 elements in a row */
+    display: flex; 
 }
 
 .h3-container h3 {
-    margin-right: 10px; /* Add space between h3 elements */
+    margin-right: 10px; 
     border: 2px solid #ffffff5f; 
-    border-radius: 15px; /* Make the border circular */
-    padding: 5px 10px; /* Add padding inside the border */
-    font-size: 14px; /* Adjust font size as needed */
-    color: #ffffff5f; /* Set text color */
+    border-radius: 15px; 
+    padding: 5px 10px; 
+    font-size: 14px; 
+    color: #ffffff5f; 
 }
 
 .projects-container {
@@ -204,8 +204,8 @@ p {
 }
 
 .project .view-project-container {
-    position: absolute; /* Position the container absolutely */
-    right: 10px; /* Align to the right */
+    position: absolute; 
+    right: 10px; 
 }
 
 .project a {
@@ -213,7 +213,7 @@ p {
     font-family: 'Helvetica Light', sans-serif; 
     font-size: 15px;
     padding: 10px 20px;
-    color: #fff; /* Set text color */
+    color: #fff; 
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s;
 }
