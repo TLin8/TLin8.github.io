@@ -227,7 +227,19 @@ p {
     font-size: 60px;
 }
 
+/* JourneyHacks '24 */
+/* Styling for the container of the four images */
+.sprout-lead .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; /* Adjust the gap between images as needed */
+}
 
+/* Styling for individual images */
+.sprout-lead .image-container img {
+    width: 100%; /* Make sure images take up full width of their container */
+    height: auto; /* Maintain aspect ratio */
+}
 
 
 
