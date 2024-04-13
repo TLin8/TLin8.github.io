@@ -227,8 +227,34 @@ p {
     font-size: 60px;
 }
 
+/* Projects format */
+.project-details {
+    margin-top: 10%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 /* JourneyHacks '24 */
-/* Styling for the container of the four images */
+.sprout-intro {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the image */
+.sprout-intro img {
+    width: 50%; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Adjust the space between image and text */
+}
+
+.sprout-lead {
+    display: flex;
+}
+
+.sprout-lead-text {
+    margin-right: 20px;
+}
+
 .sprout-lead .image-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -241,6 +267,23 @@ p {
     height: auto; /* Maintain aspect ratio */
 }
 
+.sprout-process {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 6%;
+}
+
+.sprout-process iframe {
+    margin-right: 20px;
+    width: 600px; /* Adjust the width to fill the viewport width */
+    height: 350px; /* Adjust the height of the video as needed */
+}
+
+.sprout-success {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
 
 
 
