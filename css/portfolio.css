@@ -240,15 +240,10 @@ p {
     align-items: center;
 }
 
-/* Styling for the image */
 .sprout-intro img {
-    width: 50%; /* Adjust the width of the image as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Adjust the space between image and text */
-}
-
-.sprout-lead {
-    display: flex;
+    width: 50%; 
+    height: auto; 
+    margin-right: 20px; 
 }
 
 .sprout-lead-text {
@@ -256,15 +251,14 @@ p {
 }
 
 .sprout-lead .image-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px; /* Adjust the gap between images as needed */
+    display: flex;
+    width: auto;
+    overflow-x: scroll;
 }
 
-/* Styling for individual images */
 .sprout-lead .image-container img {
-    width: 100%; /* Make sure images take up full width of their container */
-    height: auto; /* Maintain aspect ratio */
+    width: 50%; 
+    margin-right: 10px;
 }
 
 .sprout-process {
@@ -280,20 +274,61 @@ p {
 }
 
 .sprout-success {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 30px;
+    margin-right: 30px;
     text-align: center;
 }
 
+.sprout-success img{
+    width: 70%;
+}
+
 /* Creative Theater Web Design */
+.ndt-intro {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the image */
+.ndt-intro img {
+    width: 50%; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Adjust the space between image and text */
+}
+
+.ndt-direction .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; /* Adjust the gap between images as needed */
+}
+
+.ndt-direction .image-container img {
+    width: 100%; /* Make sure images take up full width of their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.ndt-homepage{
+    display: flex;
+}
+
 .home-scroll{
     height: 500px;
-    width: 50%;
+    width: 60%;
     overflow-y: scroll;
     margin-right: 20px;
 }
 
+.home-scroll img{
+    width: 100%;
+}
+
 .program-scroll{
+    height: 500px;
+    width: 50%;
+    overflow-y: scroll;
+}
+
+.gallery-scroll{
     height: 500px;
     width: 50%;
     overflow-y: scroll;
