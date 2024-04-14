@@ -285,9 +285,39 @@ p {
     text-align: center;
 }
 
+/* Creative Theater Web Design */
+.home-scroll{
+    height: 500px;
+    width: 50%;
+    overflow-y: scroll;
+    margin-right: 20px;
+}
 
+.program-scroll{
+    height: 500px;
+    width: 50%;
+    overflow-y: scroll;
+}
 
+.ndt-scroll{
+    display: flex;
+}
 
+.ndt-scroll img{
+    width: 100%;
+}
+
+.booking-scroll{
+    display: flex;
+    height: 600px;
+    width: auto;
+    overflow-x: scroll;
+}
+
+.booking-scroll img {
+    width: 100%;
+    margin-right: 10px;
+}
 
 
 
