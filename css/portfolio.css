@@ -88,6 +88,21 @@ p {
   background-color: rgb(200, 200, 200);
 }
 
+.button-nav {
+    padding: 10px 10px;
+    margin: 5px;
+    border: 2px solid #fff; 
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: transparent; 
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-nav:hover, .button-nav:focus {
+    background-color: rgba(100, 100, 100);
+}
+
 .home-hero {
     position: relative; 
 }
