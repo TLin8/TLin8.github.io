@@ -50,18 +50,18 @@ a {
     margin-left: 8rem;
 }
 
-.nav-link{
+.nav-link {
     color: rgba(255, 255, 255, 0.45);
     font-family: 'Helvetica Regular', sans-serif;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #ffffff;
 }
 
-.nav-logo h2{
-    font-size: 40px; 
+.nav-logo h2 {
+    font-size: 40px;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px grey;
 }
@@ -72,8 +72,8 @@ a {
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: #000000;
-        width: 100%;
+        background-color: #000000db;
+        width: 90%;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
@@ -110,69 +110,71 @@ a {
 
 h1 {
     color: #fff;
-    font-family: 'Helvetica Bold', sans-serif; 
-    font-size: 32px; 
+    font-family: 'Helvetica Bold', sans-serif;
+    font-size: 32px;
 }
 
 h2 {
     color: #fff;
-    font-family: 'Helvetica Compressed', sans-serif; 
-    font-size: 50px; 
+    font-family: 'Helvetica Compressed', sans-serif;
+    font-size: 50px;
 }
 
 h3 {
     color: #fff;
-    font-family: 'Helvetica Regular', sans-serif; 
-    font-size: 24px; 
+    font-family: 'Helvetica Regular', sans-serif;
+    font-size: 24px;
 }
 
 h4 {
     color: #fff;
-    font-family: 'Helvetica Light', sans-serif; 
-    font-size: 18px; 
+    font-family: 'Helvetica Light', sans-serif;
+    font-size: 18px;
 }
 
 p {
     color: #fff;
-    font-family: 'Helvetica Light', sans-serif; 
-    font-size: 16px; 
+    font-family: 'Helvetica Light', sans-serif;
+    font-size: 16px;
 }
 
-.button-nav:hover, .button-nav:focus {
-  background-color: rgb(200, 200, 200);
+.button-nav:hover,
+.button-nav:focus {
+    background-color: rgb(200, 200, 200);
 }
 
 .button-nav {
     padding: 10px 10px;
     margin: 5px;
-    border: 2px solid #fff; 
+    border: 2px solid #fff;
     border-radius: 5px;
     text-decoration: none;
-    background-color: transparent; 
+    background-color: transparent;
     color: #fff;
     cursor: pointer;
 }
 
-.button-nav:hover, .button-nav:focus {
+.button-nav:hover,
+.button-nav:focus {
     background-color: rgba(100, 100, 100);
 }
 
 .home-hero {
-    position: relative; 
+    position: relative;
 }
 
 #myVideo {
     top: 0;
-    max-width: 100%; 
-    z-index: -1; 
+    max-width: 100%;
+    z-index: -1;
 }
 
 .hero {
-    position: absolute; 
-    top: 65%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    text-align: center; 
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .hero h2 {
@@ -190,47 +192,71 @@ p {
 
 .about-section {
     display: flex;
-    align-items: center; 
-    padding: 50px; 
-    border-top: 2px solid #fff;;
+    align-items: center;
+    padding: 50px;
+    border-top: 2px solid #fff;
+    ;
 }
 
-.about-section img {
-    max-width: 50%; 
-    margin-right: 30px; 
-    margin-left: -55px; 
-    border: 2px solid #fff;;
+.about-section-image img {
+    width: 100%;
+    margin-right: 30px;
+    margin-left: -55px;
+    border: 2px solid #fff;
+    ;
 }
 
 .about-text h2 {
     color: #fff;
-    font-family: 'Helvetica Compressed', sans-serif; 
-    font-size: 80px; 
+    font-family: 'Helvetica Compressed', sans-serif;
+    font-size: 80px;
     margin-bottom: 15px;
 }
 
 .about-text p {
     color: #fff;
-    font-family: 'Helvetica Light', sans-serif; 
+    font-family: 'Helvetica Light', sans-serif;
     font-size: 16px;
-    line-height: 1.6; 
+    line-height: 1.6;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+        /* Optional: To center align items */
+        border-bottom: 2px solid #fff;
+        ;
+    }
+
+    #backVideo {
+        height: 100%;
+    }
 }
 
 .projects-section {
-    border-top: 2px solid #fff;;
+    border-top: 2px solid #fff;
+    ;
 }
 
 .projects-section h1 {
     color: #fff;
-    font-family: 'Helvetica Bold', sans-serif; 
-    font-size: 40px; 
+    font-family: 'Helvetica Bold', sans-serif;
+    font-size: 2.5vw;
     margin-bottom: 0;
 }
 
 .projects-section h2 {
     color: #fff;
-    font-family: 'Helvetica Compressed', sans-serif; 
-    font-size: 70px; 
+    font-family: 'Helvetica Compressed', sans-serif;
+    font-size: 70px;
     text-decoration: underline;
     margin-bottom: 0;
     margin-right: 55px;
@@ -238,37 +264,38 @@ p {
 }
 
 .h3-container {
-    display: flex; 
+    display: flex;
 }
 
 .h3-container h3 {
-    margin-right: 10px; 
-    border: 2px solid #ffffff5f; 
-    border-radius: 15px; 
-    padding: 5px 10px; 
-    font-size: 14px; 
-    color: #ffffff5f; 
+    margin-right: 10px;
+    border: 2px solid #ffffff5f;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 1vw;
+    color: #ffffff5f;
 }
 
 .projects-container {
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between; 
-    padding: 30px; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
 }
 
 .project {
     position: relative;
-    width: calc(50% - 0px); 
+    width: calc(50% - 0px);
     margin-bottom: 5rem;
 }
 
 .project img {
-    width: 100%; 
+    width: 100%;
     max-width: 95%;
-    height: 60%; 
-    object-fit: cover; 
-    border: 2px solid #fff;;
+    height: 60%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    ;
 }
 
 .video-background {
@@ -279,21 +306,22 @@ p {
     position: absolute;
     max-width: 100%;
     min-height: 100%;
-    z-index: -1; 
-    border-bottom: 2px solid #fff;;
+    z-index: -1;
+    border-bottom: 2px solid #fff;
+    ;
 }
 
 .project .view-project-container {
-    position: absolute; 
-    right: 10px; 
+    position: absolute;
+    right: 10px;
 }
 
 .project a {
     display: inline-block;
-    font-family: 'Helvetica Light', sans-serif; 
-    font-size: 15px;
+    font-family: 'Helvetica Light', sans-serif;
+    font-size: 1.1vw;
     padding: 10px 20px;
-    color: #fff; 
+    color: #fff;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -304,23 +332,28 @@ p {
 }
 
 .contact-section h2 {
-    font-size: 60px;
+    font-size: 4.2vw;
 }
 
 .contact-section h3 {
-    font-size: 20px;
+    font-size: 1.2vw;
 }
 
 .contact-section .mail-icon {
-    vertical-align: middle; 
+    vertical-align: middle;
 }
 
-.footer-icons{
+.footer-icons {
     margin-top: 50px;
 }
 
-.footer-rights{
+.footer-rights {
     margin-top: 10%;
+}
+
+.footer-rights h4 {
+    margin-top: 10%;
+    font-size: 1vw;
 }
 
 /* Projects format */
@@ -340,13 +373,13 @@ p {
 .sprout-intro {
     display: flex;
     align-items: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .sprout-intro img {
-    width: 50%; 
-    height: auto; 
-    margin-right: 20px; 
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
 }
 
 .sprout-lead-text {
@@ -358,25 +391,27 @@ p {
     display: flex;
     width: auto;
     overflow-x: scroll;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .sprout-lead .image-container img {
-    width: 50%; 
+    width: 50%;
     margin-right: 10px;
 }
 
 .sprout-process {
     display: flex;
-    margin-left: 10%;
-    margin-right: 6%;
-    margin-bottom: 10%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .sprout-process iframe {
-    margin-right: 20px;
-    width: 750px; 
-    height: 450px; 
+    width: 55vw;
+    height: 55vh;
+    margin-bottom: 10%;
 }
 
 .sprout-success {
@@ -384,18 +419,34 @@ p {
     margin-bottom: 10%;
 }
 
-.sprout-success-text{
+.sprout-success-text {
     width: 110%;
     margin-right: 20px;
 }
 
-.sprout-success img{
+.sprout-success img {
     width: 100%;
 }
 
-.sprout-success h1{
+.sprout-success h1 {
     font-size: 18px;
     text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .sprout-intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sprout-success {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sprout-success-text{
+        margin-bottom: 5%;
+    }
 }
 
 /* Creative Theater Web Design */
@@ -406,12 +457,12 @@ p {
 }
 
 .ndt-intro img {
-    width: 50%; 
+    width: 50%;
     height: auto;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
-.ndt-direction{
+.ndt-direction {
     display: flex;
     margin-bottom: 30px;
 }
@@ -419,18 +470,18 @@ p {
 .ndt-direction .image-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px; 
+    grid-gap: 10px;
 }
 
 .ndt-direction .image-container img {
     width: 100%;
-    height: auto; 
+    height: auto;
 }
 
 .branding-image-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px; 
+    grid-gap: 10px;
     margin-bottom: 10%;
 }
 
@@ -438,48 +489,48 @@ p {
     width: 100%;
 }
 
-.ndt-homepage{
+.ndt-homepage {
     display: flex;
     margin-bottom: 5%;
 }
 
-.ndt-homepage .home-text{
+.ndt-homepage .home-text {
     width: 50%;
 }
 
-.home-scroll{
+.home-scroll {
     height: 500px;
     width: 60%;
     overflow-y: scroll;
     margin-right: 20px;
 }
 
-.home-scroll img{
+.home-scroll img {
     width: 100%;
 }
 
-.program-scroll{
+.program-scroll {
     height: 500px;
     width: 50%;
     overflow-y: scroll;
     margin-bottom: 5%;
 }
 
-.gallery-scroll{
+.gallery-scroll {
     height: 500px;
     width: 50%;
     overflow-y: scroll;
 }
 
-.ndt-scroll{
+.ndt-scroll {
     display: flex;
 }
 
-.ndt-scroll img{
+.ndt-scroll img {
     width: 100%;
 }
 
-.booking-scroll{
+.booking-scroll {
     display: flex;
     height: 600px;
     width: auto;
@@ -496,12 +547,30 @@ p {
     margin-bottom: 10%;
 }
 
-.ndt-success h1{
+.ndt-success h1 {
     font-size: 18px;
     text-align: end;
 }
 
+@media only screen and (max-width: 768px) {
+    .ndt-intro {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .ndt-direction {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .branding-image-container{
+        display: flex;
+        flex-direction: column;
+    }
 
-
+    .ndt-scroll {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
