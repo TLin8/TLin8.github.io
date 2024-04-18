@@ -13,7 +13,8 @@ header {
 
 .colors,
 .typography,
-.Buttons {
+.buttons, 
+.imagery {
     margin-left: 30px;
 }
 
@@ -104,6 +105,18 @@ h5 {
 
 .button2-nav:hover, .button2-nav:focus {
     background-color: rgb(200, 200, 200);
+}
+
+.imagery .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    width: 60%;
+}
+
+.imagery .image-container img {
+    width: 100%;
+    height: auto;
 }
 
 footer {

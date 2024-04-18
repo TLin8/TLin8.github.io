@@ -231,9 +231,7 @@ p {
     .projects-container {
         flex-direction: column;
         align-items: center;
-        /* Optional: To center align items */
         border-bottom: 2px solid #fff;
-        ;
     }
 
     #backVideo {
@@ -332,7 +330,7 @@ p {
 }
 
 .contact-section h2 {
-    font-size: 4.2vw;
+    font-size: 60px;
 }
 
 .contact-section h3 {
@@ -573,4 +571,9 @@ p {
         flex-direction: column;
         align-items: center;
     }
+}
+
+/* Footer Buttons */
+.footer-buttons{
+    margin-top: 30px;
 }
