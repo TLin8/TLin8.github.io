@@ -195,7 +195,6 @@ p {
     align-items: center;
     padding: 50px;
     border-top: 2px solid #fff;
-    ;
 }
 
 .about-section-image img {
@@ -203,7 +202,6 @@ p {
     margin-right: 30px;
     margin-left: -55px;
     border: 2px solid #fff;
-    ;
 }
 
 .about-text h2 {
@@ -241,7 +239,6 @@ p {
 
 .projects-section {
     border-top: 2px solid #fff;
-    ;
 }
 
 .projects-section h1 {
@@ -284,7 +281,7 @@ p {
 .project {
     position: relative;
     width: calc(50% - 0px);
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 .project img {
@@ -293,7 +290,6 @@ p {
     height: 60%;
     object-fit: cover;
     border: 2px solid #fff;
-    ;
 }
 
 .video-background {
@@ -306,7 +302,6 @@ p {
     min-height: 100%;
     z-index: -1;
     border-bottom: 2px solid #fff;
-    ;
 }
 
 .project .view-project-container {
@@ -326,6 +321,7 @@ p {
 
 .contact-section {
     text-align: center;
+    margin-top: 15%;
     margin-bottom: 50px;
 }
 
@@ -365,6 +361,18 @@ p {
     margin-top: 10%;
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+.nw-project-details {
+    margin-top: 10%;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+.es-project-details {
+    margin-top: 10%;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
 }
 
 /* JourneyHacks '24 */
@@ -442,8 +450,141 @@ p {
         flex-direction: column;
     }
 
-    .sprout-success-text{
+    .sprout-success-text {
         margin-bottom: 5%;
+    }
+}
+
+/* Eclipse */
+.es-intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.es-intro img {
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.es-homepage {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.es-homepage .es-home-text {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.es-home-scroll {
+    height: 500px;
+    width: 60%;
+    overflow-y: scroll;
+}
+
+.es-home-scroll img {
+    width: 100%;
+}
+
+.es-about-scroll {
+    height: 500px;
+    width: 50%;
+    overflow-y: scroll;
+    margin-bottom: 5%;
+}
+
+.es-services-scroll {
+    height: 500px;
+    width: 50%;
+    overflow-y: scroll;
+}
+
+.es-scroll {
+    display: flex;
+}
+
+.es-scroll img {
+    width: 100%;
+}
+
+.es-insights {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.es-insights .es-insights-text {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.es-insights-scroll {
+    height: 500px;
+    width: 60%;
+    overflow-y: scroll;
+}
+
+.es-insights-scroll img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .es-intro {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* nwHacks */
+.nw-intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.nw-intro img {
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.nw-lead-text {
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.nw-lead img {
+    width: 60%;
+    margin-right: 10px;
+}
+
+.nw-process-text {
+    text-align: right;
+    width: 85%;
+    margin-left: auto;
+}
+
+.nw-process-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.nw-success-text {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nw-success-image {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+    .nw-intro {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -561,7 +702,7 @@ p {
         flex-direction: column;
     }
 
-    .branding-image-container{
+    .branding-image-container {
         display: flex;
         flex-direction: column;
     }
@@ -574,6 +715,6 @@ p {
 }
 
 /* Footer Buttons */
-.footer-buttons{
+.footer-buttons {
     margin-top: 30px;
 }
