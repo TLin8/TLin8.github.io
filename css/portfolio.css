@@ -225,11 +225,19 @@ p {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 800px) {
+    .project {
+        position: relative;
+        width: calc(50% - 0px);
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     .projects-container {
         flex-direction: column;
         align-items: center;
-        border-bottom: 2px solid #fff;
+
     }
 
     #backVideo {
@@ -244,7 +252,7 @@ p {
 .projects-section h1 {
     color: #fff;
     font-family: 'Helvetica Bold', sans-serif;
-    font-size: 2.5vw;
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
     margin-bottom: 0;
 }
 
@@ -266,8 +274,8 @@ p {
     margin-right: 10px;
     border: 2px solid #ffffff5f;
     border-radius: 15px;
-    padding: 5px 10px;
-    font-size: 1vw;
+    padding: clamp(4px, 0.5vw, 8px) clamp(8px, 1vw, 16px); 
+    font-size: clamp(0.8rem, 1vw, 1.2rem); 
     color: #ffffff5f;
 }
 
@@ -276,12 +284,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 30px;
-}
-
-.project {
-    position: relative;
-    width: calc(50% - 0px);
-    margin-bottom: 1rem;
 }
 
 .project img {
@@ -312,7 +314,7 @@ p {
 .project a {
     display: inline-block;
     font-family: 'Helvetica Light', sans-serif;
-    font-size: 1.1vw;
+    font-size: clamp(1rem, 1.1vw, 2.5rem); 
     padding: 10px 20px;
     color: #fff;
     text-decoration: none;
@@ -326,11 +328,11 @@ p {
 }
 
 .contact-section h2 {
-    font-size: 60px;
+    font-size: clamp(3rem, 5vw, 4rem); 
 }
 
 .contact-section h3 {
-    font-size: 1.2vw;
+    font-size: clamp(1rem, 1.2vw, 1.5rem); 
 }
 
 .contact-section .mail-icon {
@@ -347,7 +349,7 @@ p {
 
 .footer-rights h4 {
     margin-top: 10%;
-    font-size: 1vw;
+    font-size: clamp(0.8rem, 1vw, 1.2rem); 
 }
 
 /* Projects format */
